@@ -26,6 +26,8 @@ def response_handler(body):
         message = "You wait it out for a minute or so, only to hear scraping noises outside the coffin. Suddenly, a knife plunges through the coffin, piercing your body. You try to get out of the coffin only to realize it's locked. You keep getting stabbed and scream in pain. After a few minutes, you are finally resting in peace. You just DIED! Maybe you should have put your phone on vibrate as soon as you left the dorm, so you wouldn't get caught by campus security...or the hooded figure that killed you. Well, too late for that. Shame on you!!! Do you want to 'start' over?"
     elif body == 'leave the coffin':
         message = "You carefully sneak out of the coffin only to find the hooded figure standing a few feet away...with his back towards you. Do you 'sneak out of the cemetery' or 'attack the hooded figure'?"
+    elif body == 'behind a tombstone':
+        message = "You quickly hide behind a tombstone. You look up to find the hooded figure in the cemetery, searching for you. Do you 'sneak out of the cemetery' or wait and 'attack the hooded figure'?"
     elif body == 'sneak out of the cemetery':
         message = "You maneuver around the cemetery, hiding behind tombstones and moving your way towards the exit. You make it out of the cemetery alive and continue to your dorm when you see campus security. Do you 'talk to security' or 'continue running to your dorm'?"
     elif body == 'attack the hooded figure':

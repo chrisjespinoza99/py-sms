@@ -55,7 +55,7 @@ def response_handler(body):
     elif body == 'continue running to your dorm':
         message = "You continue running to your dorm and then realize you have to cross Main Street! Do you 'wait for the crosswalk' or do you 'run the crosswalk'?"
     elif body == 'wait for the crosswalk':
-        message = "You wait for the walk signal to turn on, worrying if you are really safe. Thankfully, the walk signal turns on and you make it to your dorm in one piece. You are abou to sleep....when you get a text from your friend. He's outside your dorm and needs your help for something urgent. Do you 'go help' your friend or 'go to bed'?"
+        message = "You wait for the walk signal to turn on, worrying if you are really safe. Thankfully, the walk signal turns on and you make it to your dorm in one piece. You are abou to sleep....when you get a text from your friend. He's outside your dorm and needs your help for something urgent. Do you 'go help' your friend or 'go to sleep'?"
     elif body == 'run the crosswalk':
         message = "Unfortunately, due to your impatience, you are hit by a car! Your ribs break and  your body is crushed. You die instantly! The end! Do you want to 'start over?"
     elif body == 'left path':
@@ -83,7 +83,7 @@ def response_handler(body):
     elif body == 'try to hide':
         message = "You decide to hide. Do you hide behind a 'bush' or climb up a 'tree'?"
     elif body == 'go help':
-        message = "You go see what your friend wants. You angrily ask him what you want, oblivious to the fact that the hooded figure is behind you. You get stabbed in the beack by the killer. You beg your friend to help you, but he just stands there with a big smile on his face, enjoying your pain and murder. You've just been stabbed in the back! Both literally and figuratively!!! You DIE!!! The END!!! Do you want to 'start' over?"
+        message = "You go see what your friend wants. You angrily ask him what you want, oblivious to the fact that the hooded figure is behind you. You get stabbed in the back by the killer. You beg your friend to help you, but he just stands there with a big smile on his face, enjoying your pain and murder. You've just been stabbed in the back! Both literally and figuratively!!! You DIE!!! The END!!! Do you want to 'start' over?"
     elif body == 'go to sleep':
         message = "You get a somewhat good sleep. Six hours of sleep isn't much, but at least you're alive!!! The end! Do you want to 'start' over?"
     elif body == 'GW':

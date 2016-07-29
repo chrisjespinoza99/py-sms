@@ -55,7 +55,7 @@ def response_handler(body):
     elif body == 'continue running to your dorm':
         message = "You continue running to your dorm and then realize you have to cross Main Street! Do you 'wait for the crosswalk' or do you 'run the crosswalk'?"
     elif body == 'wait for the crosswalk':
-        message = "You wait for the walk signal to turn on, worrying if you are really safe. Thankfully, the walk signal turns on and you make it to your dorm in one piece. You are abou to sleep....when you get a text from your friend. He's outside your dorm and needs your help for something urgent. Do you 'go help' your friend or 'go to sleep'?"
+        message = "You wait for the walk signal to turn on, worrying if you are really safe. Thankfully, the walk signal turns on and you make it to your dorm in one piece. You are about to sleep....when you get a text from your friend. He's outside your dorm and needs your help for something urgent. Do you 'go help' your friend or 'go to sleep'?"
     elif body == 'run the crosswalk':
         message = "Unfortunately, due to your impatience, you are hit by a car! Your ribs break and  your body is crushed. You die instantly! The end! Do you want to 'start over?"
     elif body == 'left path':
